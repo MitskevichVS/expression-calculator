@@ -128,7 +128,7 @@ function dev(array) {
     const answer = numbersArray[0] / numbersArray[2];
     const finite = isFinite(answer);
     if (!finite) {
-        throw "TypeError: Devision by zero.";
+        throw "TypeError: Division by zero.";
     }
     return answer;
 }
